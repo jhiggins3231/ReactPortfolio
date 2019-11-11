@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+@font-face {
+  font-family: Inconsolata;
+  src: url('./Port-Assets/Inconsolata-Regular.ttf');
+}
 
 .App-logo {
   height: 40vmin;
