@@ -11,11 +11,7 @@ import Collapse from '@material-ui/core/Collapse';
 import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import { red } from '@material-ui/core/colors';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
 import indy from '../Port-Assets/indy.jpg';
 
 const useStyles = makeStyles(theme => ({
@@ -111,7 +107,7 @@ export default function CardOne() {
               <li> Entry level sonar operator. Gained experience to reinforce theoretical training to develop critical, methodical analytical skills to interpret and classify complex data and make solid tactical recommendations based on this information.</li>
             </ul>
           </Typography>
-          <Typography paragraph className={classes.content} paragraph variant="h5">
+          <Typography paragraph className={classes.content} variant="h5">
             Title: Test and Evaluation Team Lead
           </Typography>
           <Typography paragraph className={classes.content}>

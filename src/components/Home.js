@@ -16,8 +16,6 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import { Link } from '@material-ui/core';
-import mountain from '../Port-Assets/mountain.jpeg';
-
 
 
 const useStyles = makeStyles(theme => ({
@@ -44,6 +42,12 @@ const useStyles = makeStyles(theme => ({
     p1: {
         color: '#f2f4f3',
         textAlign: "center"
+    },
+    p2: {
+        color: '#f2f4f3',
+        textAlign: 'center',
+        fontSize: 12,
+        margin: 0
     },
     container: {
         margin: 0
@@ -76,7 +80,7 @@ export default function Home() {
       <CardOne />
     </div>
       <Container maxWidth="sm" className={classes.container} justify="center">
-        <Typography component="div" className={classes.mainIMG} >
+        <Typography component="div" className={classes.mainIMG} > 
             <br />
             <br />
             <Grid container justify="center" alignItems="center">
@@ -84,6 +88,8 @@ export default function Home() {
             </Grid>
             <h2 className={classes.h2}>James Higgins</h2>
             <p className={classes.p1}>Junior Full Stack Developer</p>
+            <p className={classes.p2}>jhiggins3231@gmail.com</p>
+            <p className={classes.p2}>317-400-1884</p>
             <div className={classes.icon}>      
             <FacebookIcon className={classes.icons} onClick={() => window.open("https://www.facebook.com/james.higgins.3139")} />
             <GitHubIcon className={classes.icons} onClick={() => window.open("https://www.https://github.com/jhiggins3231/")} />

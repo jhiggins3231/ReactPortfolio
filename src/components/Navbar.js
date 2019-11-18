@@ -5,7 +5,6 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Slide from '@material-ui/core/Slide';
 import Typography from '@material-ui/core/Typography'
-import styled from 'styled-components';
 import { makeStyles } from '@material-ui/core/styles';
 
 
