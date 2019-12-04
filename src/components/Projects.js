@@ -11,6 +11,7 @@ import creature from '../Port-Assets/creature.png';
 import staticPic from '../Port-Assets/static.png';
 import pokemon from '../Port-Assets/pokemon.jpg';
 import nissan from '../Port-Assets/nissan.jpg';
+import red from '../Port-Assets/red.jpg';
 
 const useStyles = makeStyles({
   card: {
@@ -108,6 +109,25 @@ export default function ImgMediaCard() {
           </Typography>
           <Typography variant="body2" component="p" className={classes.content}>
             Blue Badge project created with Node.JS and React.JS. Deployed on Heroku. I made a wishlist generator for car parts for a very specific chassis.
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+    <Card className={classes.card} onClick={() => window.open("jke-1150-projects-client.herokuapp.com/")}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          alt="redBadge"
+          height="140"
+          image={red}
+          title="Project/1150"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2" className={classes.title}>
+            Project/1150
+          </Typography>
+          <Typography variant="body2" component="p" className={classes.content}>
+            A group project that required 2 CRUD Tables. As a group we decided to create a website to store past and future EFA projects. Hopefully, this will enable students to have a place to go and view others projects/code.
           </Typography>
         </CardContent>
       </CardActionArea>
