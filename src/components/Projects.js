@@ -113,7 +113,7 @@ export default function ImgMediaCard() {
         </CardContent>
       </CardActionArea>
     </Card>
-    <Card className={classes.card} onClick={() => window.open("jke-1150-projects-client.herokuapp.com/")}>
+    <Card className={classes.card} onClick={() => window.open("https://jke-1150-projects-client.herokuapp.com/")}>
       <CardActionArea>
         <CardMedia
           component="img"
