@@ -92,7 +92,7 @@ export default function Home() {
             <p className={classes.p2}>317-400-1884</p>
             <div className={classes.icon}>      
             <FacebookIcon className={classes.icons} onClick={() => window.open("https://www.facebook.com/james.higgins.3139")} />
-            <GitHubIcon className={classes.icons} onClick={() => window.open("https://www.https://github.com/jhiggins3231/")} />
+            <GitHubIcon className={classes.icons} onClick={() => window.open("https://github.com/jhiggins3231")} />
             <LinkedInIcon className={classes.icons} onClick={() => window.open("https://www.linkedin.com/in/jhiggins3231/")} />
             </div>
         </Typography>
